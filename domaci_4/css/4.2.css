@@ -1,0 +1,113 @@
+/*Navbar*/
+nav {
+	background-color: black;
+	color: black;
+	margin-bottom: 20px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+li  {
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px 30px 10px 30px;
+}
+
+.logo	{
+	padding: none;
+}
+
+a	{
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: 1.3em;
+	font-weight: bold;
+	font-family: Helvetica, Arial, Sans-serif;
+}
+
+a:hover	{
+	color: gray;
+}
+
+.right	{
+	float: right;
+}
+
+.left	{
+	float: left;
+}
+
+
+/*Element*/
+section	{
+	width: 70%;
+	margin: 70px auto 30px; 
+	padding: 20px 30px 30px 20px;
+}
+
+article	{
+	width: 80%;
+	margin: auto;
+	border-bottom: 1px solid black;
+}
+
+article:nth-child(3)	{
+	border-bottom: none;
+}
+
+.dva	{
+	display: inline-block;
+}
+
+.par	{
+	display: inline-block;
+	width: 40%;
+	text-align: justify;
+	margin: 0 0 20px 0;
+	padding: 10px 0 10px 0;
+	
+	}
+
+.image	{
+	display: inline-block;
+	float: right;
+	margin-top: 20px;
+}
+
+.par p {
+	font-size: 1.35em;
+	letter-spacing: 2px;
+}
+
+.par p:nth-child(4)	{
+	font-weight: bold;
+}
+
+p, h1, h2, h3, table	{
+	font-family: Helvetica, Arial, sans-serif;
+} 
+
+
+/*Tabela*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #f1f1f1;
+}
+
+caption {
+	font-style: italic;
+    caption-side: bottom;
+    text-align:left;
+    margin-top: 30px;
+}

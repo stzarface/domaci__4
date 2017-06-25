@@ -1,0 +1,66 @@
+
+body	{
+	background: rgba(208, 225, 222, 0.6);
+}
+
+form {
+	padding: 20px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+input	{
+	display: inline-block;
+	margin: 10px 20px 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+article	{
+	margin: 30px auto;
+    width: 40%;
+    border: 2px solid green;
+    border-radius: 10px 10px 0 10px;
+    padding: 10px;
+    background-color: gray;
+}
+
+label {
+	display: block;
+	margin-left: 30px;
+	font-size: 1.2em;
+	font-family: 'Francois One', sans-serif;
+	font-style: italic;
+}
+
+p {
+	font-family: 'Francois One', sans-serif;
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+input[type=text], [type=email], [type=number] {
+    background-color: rgb(207, 210, 214);
+    width: 70%;
+    border: 2px solid darkgray; 
+    border-radius: 7px;
+}
+
+input[type=submit]	{
+	width: 50%;
+	border-radius: 7px 7px 0 7px;
+}
+
+input[type=textarea] {
+    width: 100%;
+    height: 150px;
+    border-radius: 7px;
+    background-color: rgb(207, 210, 214);
+    border: 2px solid darkgray;
+}
+
+h1	{
+	text-align: center;
+	font-family: 'Francois One', sans-serif;
+
+}

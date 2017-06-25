@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Forma</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/4.2.1.css">
+</head>
+<body>
+
+	<section>
+		<article>
+			<h1>Molimo Vas popunite sledeća polja:</h1>
+			<form>	
+				<label for="name">Ime:</label>
+				<input type="text" name="ime" id="name" placeholder="Marko Petrovic" required>
+					
+					
+				<label for="mail">Mail:</label>
+				<input type="email" name="imajl" id="mail" placeholder="primer@gmail.com" required>
+					
+					
+				<label for="phonenumber">Telefon:</label>
+				<input type="number" name="phone" id="phonenumber" placeholder="0641234567">
+					
+					
+				<label for="sex">Pol:</label>
+				<p>
+					<input type="radio" name="pol" value="men" id="sex">Muški
+				</p>
+				<p>
+					<input type="radio" name="pol" value="women" id="sex">Ženski
+				</p>
+					
+				<p>
+					<label for="color">Boja koju volite:</label>
+					<input type="checkbox" value="red" name="boja" id="color">Crvena
+					<input type="checkbox" value="black" name="boja" id="color">Crna
+					<input type="checkbox" value="blue" name="boja" id="color">Plava
+				</p>
+
+				<p>
+					<label for="textbox">Komentar:</label>
+					<input type="textarea" name="texthold" id="textbox">
+				</p>
+
+				<p>
+					<input type="submit" name="send" value="send">
+				</p>
+			</form>
+		</article>
+	</section>
+
+</body>
+</html>
